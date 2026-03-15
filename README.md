@@ -1,28 +1,124 @@
-Track-Meds
+<div id="top" align="center">
 
-Track-Meds is a web application designed to help you manage your medication inventory efficiently. With Track-Meds, you can easily scan and purchase medications, set reminders, and receive notifications when your medicines are about to expire. This ensures that you never miss a dose or let any medication go to waste.
+# TRACK-MEDS
 
-Features
-Scan & Purchase: Quickly scan barcodes to add medications to your inventory and purchase them seamlessly.
-Expiry Reminders: Set reminders for each medication to receive timely notifications before they expire.
-User-Friendly Interface: Intuitive design for easy navigation and management of your medicine inventory.
-Notifications: Get notified via the app to stay informed about your medication status.
-Technologies Used
+*Never miss a dose. Never waste a medicine.*
 
-Frontend:
-React (Vite)
-TypeScript
-CSS
-Hosting: Netlify
+![last-commit](https://img.shields.io/github/last-commit/Waroo04/Track-meds?style=flat&logo=git&logoColor=white&color=0080ff)
+![top-language](https://img.shields.io/github/languages/top/Waroo04/Track-meds?style=flat&color=0080ff)
+![language-count](https://img.shields.io/github/languages/count/Waroo04/Track-meds?style=flat&color=0080ff)
 
-Live Demo
-https://trackmeds2024.netlify.app/
+*Built with the tools and technologies:*
 
-Usage
-Sign Up / Login: Create an account or log in to your existing account.
-Scan Medications: Use the scan feature to add medications to your inventory.
-Set Reminders: After adding medications, set reminders for expiration dates.
-Receive Notifications: Ensure you receive notifications when medications are nearing expiration.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=flat&logo=Vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7.svg?style=flat&logo=Netlify&logoColor=white)
 
-Contributing
-We welcome contributions! If you have suggestions or improvements, please feel free to submit a pull request or open an issue.
+</div>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Live Demo](#live-demo)
+- [Contributing](#contributing)
+
+---
+
+## Overview
+
+Track-Meds is a web application designed to help you manage your medication inventory efficiently. It allows you to scan and purchase medications, set reminders, and receive notifications when your medicines are about to expire — so you never miss a dose or let any medication go to waste.
+
+---
+
+## Features
+
+- 🔍 **Scan & Purchase** — Quickly scan barcodes to add medications to your inventory
+- ⏰ **Expiry Reminders** — Set reminders to receive timely notifications before medications expire
+- 🔔 **Notifications** — Stay informed about your medication status at all times
+- 🖥️ **User-Friendly Interface** — Intuitive design for easy navigation and management
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
+
+1. **Clone the repository:**
+
+```sh
+git clone https://github.com/Waroo04/Track-meds
+cd Track-meds
+```
+
+2. **Install dependencies:**
+
+```sh
+npm install
+```
+
+### Usage
+
+Start the development server:
+
+```sh
+npm run dev
+```
+
+Build for production:
+
+```sh
+npm run build
+```
+
+---
+
+## Live Demo
+
+🌐 [trackmeds2024.netlify.app](https://trackmeds2024.netlify.app/)
+
+---
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── pages/         # Application pages
+│   └── assets/        # Static assets
+├── Image/             # Project images
+├── index.html
+├── package.json
+└── vite.config.ts
+```
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run lint` | Run ESLint |
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions and improvements.
+
+---
+
+<div align="left"><a href="#top">⬆ Return to top</a></div>
